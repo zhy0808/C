@@ -22,6 +22,7 @@ int my_atoi(char *a)
 int main()
 {
 	char *a = "-123789";
+	printf("%d\n",a);
 	my_atoi(a);
 	printf("%d\n",my_atoi(a));
 	system("pause");
